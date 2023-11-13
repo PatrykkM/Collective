@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.3029002d.css",
-    "main.js": "/static/js/main.baea0d67.js",
-    "static/media/photowithquote.jpg": "/static/media/photowithquote.ed57d5c3800181932021.jpg",
-    "static/media/FashionSummer.jpg": "/static/media/FashionSummer.81af2b03b80f0d98b522.jpg",
-    "static/media/FashionRetro.jpg": "/static/media/FashionRetro.66e1029e733d62869492.jpg",
-    "static/media/FashionClassicElegant.jpg": "/static/media/FashionClassicElegant.77b39ea585b7e2903d85.jpg",
-    "static/media/clothe1.jpg": "/static/media/clothe1.7ccdbb3fc096921b435b.jpg",
-    "static/media/model 3.jpg": "/static/media/model 3.ba08ce02cf1acf1c3ee2.jpg",
-    "static/media/model1.jpg": "/static/media/model1.ce0f9786450974e03707.jpg",
-    "static/media/clothe2.jpg": "/static/media/clothe2.6d8a0ba364701ba3958d.jpg",
-    "static/media/model2.jpg": "/static/media/model2.55b57270092c1f9602ed.jpg",
-    "static/media/model4.jpg": "/static/media/model4.9ca7dd42789ef933bc5f.jpg",
-    "static/media/FashionStreetStyle.jpg": "/static/media/FashionStreetStyle.d24c688f5874d3f91a02.jpg",
-    "static/media/SportFashion.jpg": "/static/media/SportFashion.2fe94a0c5bfb0ef21564.jpg",
-    "static/media/FashionArtOfBeat.jpg": "/static/media/FashionArtOfBeat.fdc14b5a53e6c75bcc93.jpg",
-    "index.html": "/index.html",
-    "main.3029002d.css.map": "/static/css/main.3029002d.css.map",
-    "main.baea0d67.js.map": "/static/js/main.baea0d67.js.map"
+    "main.css": "/React-EcommerceShop/static/css/main.3029002d.css",
+    "main.js": "/React-EcommerceShop/static/js/main.cb9dc0a2.js",
+    "static/media/photowithquote.jpg": "/React-EcommerceShop/static/media/photowithquote.ed57d5c3800181932021.jpg",
+    "static/media/FashionSummer.jpg": "/React-EcommerceShop/static/media/FashionSummer.81af2b03b80f0d98b522.jpg",
+    "static/media/FashionRetro.jpg": "/React-EcommerceShop/static/media/FashionRetro.66e1029e733d62869492.jpg",
+    "static/media/FashionClassicElegant.jpg": "/React-EcommerceShop/static/media/FashionClassicElegant.77b39ea585b7e2903d85.jpg",
+    "static/media/clothe1.jpg": "/React-EcommerceShop/static/media/clothe1.7ccdbb3fc096921b435b.jpg",
+    "static/media/model 3.jpg": "/React-EcommerceShop/static/media/model 3.ba08ce02cf1acf1c3ee2.jpg",
+    "static/media/model1.jpg": "/React-EcommerceShop/static/media/model1.ce0f9786450974e03707.jpg",
+    "static/media/clothe2.jpg": "/React-EcommerceShop/static/media/clothe2.6d8a0ba364701ba3958d.jpg",
+    "static/media/model2.jpg": "/React-EcommerceShop/static/media/model2.55b57270092c1f9602ed.jpg",
+    "static/media/model4.jpg": "/React-EcommerceShop/static/media/model4.9ca7dd42789ef933bc5f.jpg",
+    "static/media/FashionStreetStyle.jpg": "/React-EcommerceShop/static/media/FashionStreetStyle.d24c688f5874d3f91a02.jpg",
+    "static/media/SportFashion.jpg": "/React-EcommerceShop/static/media/SportFashion.2fe94a0c5bfb0ef21564.jpg",
+    "static/media/FashionArtOfBeat.jpg": "/React-EcommerceShop/static/media/FashionArtOfBeat.fdc14b5a53e6c75bcc93.jpg",
+    "index.html": "/React-EcommerceShop/index.html",
+    "main.3029002d.css.map": "/React-EcommerceShop/static/css/main.3029002d.css.map",
+    "main.cb9dc0a2.js.map": "/React-EcommerceShop/static/js/main.cb9dc0a2.js.map"
   },
   "entrypoints": [
     "static/css/main.3029002d.css",
-    "static/js/main.baea0d67.js"
+    "static/js/main.cb9dc0a2.js"
   ]
 }
