@@ -1,10 +1,11 @@
 import React from "react";
-import SummerFashionSubpage from "./FashionCategory/SummerFashionSubpages";
-import ArtOfBeatFashionSubpage from "./FashionCategory/ArtOfBeatFashionSubpage";
-import RetroFashionSubpage from "./FashionCategory/RetroFashionSubpage";
-import ClassicElegantFashionSubpage from "./FashionCategory/ClassicElegantFashionSubpage";
-import StreetStyleFashionSubpage from "./FashionCategory/StreetStyleFashionSubpage";
-import SportyCasualFasionsSubpage from "./FashionCategory/SportyCasualFasionsSubpage";
+import SummerFashionSubpage from "./FashionCategory/SummerFashion";
+import ArtOfBeatFashionSubpage from "./FashionCategory/ArtOfBeatFashion";
+import RetroFashionSubpage from "./FashionCategory/RetroFashion";
+import ClassicElegantFashionSubpage from "./FashionCategory/ClassicElegantFashion";
+import StreetStyleFashionSubpage from "./FashionCategory/StreetStyleFashion";
+import SportyCasualFasionsSubpage from "./FashionCategory/SportyCasualFasion";
+
 const FashionCategory = () => {
   return (
     <div className="w-4/5 ">

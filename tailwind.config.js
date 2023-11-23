@@ -6,14 +6,17 @@ module.exports = {
       sm: "540px",
       md: "768px",
       lg: "1024px",
-      photoChangeXS: "1156px",
+      photoChangeXS: "1170px",
       xl: "1280px",
-      photoChange: "1625px",
+      photoChange: "1640px",
     },
 
     extend: {
       fontFamily: {
         roboto: ["Roboto"],
+      },
+      display: {
+        a: "block",
       },
       height: {
         84: "21rem",
@@ -25,6 +28,7 @@ module.exports = {
         "10%": "10%",
       },
       width: {
+        26: "6.5rem",
         "45%": "45%",
         "55%": "55%",
       },
@@ -34,6 +38,7 @@ module.exports = {
       },
       minHeight: {
         80: "20rem",
+        "120vh": "120vh",
       },
       colors: {
         main: "#fdfdfc",
