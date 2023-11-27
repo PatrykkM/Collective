@@ -4,13 +4,16 @@ import PreHeader from "./PreHeader";
 import CartItems from "./CartItems";
 import { calculateTotalPrice } from "./CartItems";
 
-const Cart = ({ CounterBasket }) => {
+const Cart = ({ CounterBasket, SetCounterBasket }) => {
   const { useProductsContext } = require("./ProductsProvider");
   const { getCartItems } = useProductsContext();
   const cart = getCartItems();
   const { totalPrice: SubtotalCartPrice, totalItems } =
     calculateTotalPrice(cart);
   const TotalPrice = SubtotalCartPrice + 10;
+  const DeleteCardCounter = () => {
+    SetCounterBasket(CounterBasket - 1);
+  };
   return (
     <>
       <PreHeader CounterBasket={CounterBasket} />
@@ -24,7 +27,7 @@ const Cart = ({ CounterBasket }) => {
           </div>
         </div>
         <div>
-          <CartItems />
+          <CartItems DeleteCardCounter={DeleteCardCounter} />
         </div>
 
         <div className="border-t border-LightBlack lg:w-1/2  lg:border-none">

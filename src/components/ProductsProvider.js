@@ -15,6 +15,15 @@ export const ProductsProvider = ({ children }) => {
       );
     });
   };
+  const deleteProduct = (productId) => {
+    setProducts((prevProducts) => {
+      return prevProducts.map((product) =>
+        product.id === productId && product.clicked > 0
+          ? { ...product, clicked: product.clicked - 1 }
+          : product
+      );
+    });
+  };
   const getProductsByIdMain = () => {
     return products.filter((product) => product.id >= 1 && product.id <= 3);
   };
@@ -80,6 +89,7 @@ export const ProductsProvider = ({ children }) => {
     getProductsByIdSummerFashion2,
     getProductsByIdLatestArrivals,
     getCartItems,
+    deleteProduct,
   };
 
   return (

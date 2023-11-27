@@ -94,7 +94,12 @@ const App = () => {
             />
             <Route
               path="/Cart"
-              element={<Cart CounterBasket={CounterBasket} />}
+              element={
+                <Cart
+                  CounterBasket={CounterBasket}
+                  SetCounterBasket={SetCounterBasket}
+                />
+              }
             />
             <Route
               path="/SummerFashion"

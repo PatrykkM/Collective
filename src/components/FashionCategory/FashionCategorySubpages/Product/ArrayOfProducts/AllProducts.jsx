@@ -253,7 +253,7 @@ export const PRODUCTS8 = [
   {
     id: 25,
     img: SportFasionSubpageModel4,
-    ProductName: "Black long-sleeved T-shirt",
+    ProductName: "Oversize T-shirt",
     price: 299.0,
     addtocart: "clotheRetroFashionSubpage4",
     clicked: 0,
@@ -261,7 +261,7 @@ export const PRODUCTS8 = [
   {
     id: 26,
     img: SportFasionSubpageModel5,
-    ProductName: "gray sweatshirt",
+    ProductName: "Nike T-shirt",
     price: 229.0,
     addtocart: "clotheRetroFashionSubpage5",
     clicked: 0,
@@ -269,8 +269,8 @@ export const PRODUCTS8 = [
   {
     id: 27,
     img: SportFasionSubpageModel6,
-    ProductName: "Gold necklace",
-    price: 599.0,
+    ProductName: "Nike Top",
+    price: 99.0,
     addtocart: `clotheRetroFashionSubpage6`,
     clicked: 0,
   },

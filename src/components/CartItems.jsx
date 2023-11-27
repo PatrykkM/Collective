@@ -17,9 +17,13 @@ export const calculateTotalPrice = (cart) => {
   return total;
 };
 
-const CartItems = () => {
-  const { getCartItems } = useProductsContext();
+const CartItems = ({ DeleteCardCounter }) => {
+  const { getCartItems, deleteProduct } = useProductsContext();
   const cart = getCartItems();
+  const RemoveProductFromCart = (productId) => {
+    deleteProduct(productId);
+    DeleteCardCounter();
+  };
 
   return (
     <>
@@ -36,7 +40,10 @@ const CartItems = () => {
                 <div className="font-medium text-gray-400">
                   Quantity: {product.clicked}
                 </div>
-                <div className="pt-2 text-2xl">
+                <div
+                  className="pt-2 text-2xl"
+                  onClick={() => RemoveProductFromCart(product.id)}
+                >
                   <FaRegTrashAlt />
                 </div>
               </div>

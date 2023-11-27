@@ -10,7 +10,9 @@ const PreHeader = ({ CounterBasket }) => {
     >
       <div className="w-1/4 xl:w-1/5 ">
         <ul className="flex justify-between ">
-          <li className="cursor-pointer">Home Page</li>
+          <Link to={"/home"}>
+            <li className="cursor-pointer">Home Page</li>
+          </Link>
           <li className="cursor-pointer">Man</li>
           <li className="cursor-pointer">Woman</li>
         </ul>
