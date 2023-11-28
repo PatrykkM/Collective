@@ -35,13 +35,17 @@ const CartItems = ({ DeleteCardCounter }) => {
                 <img src={product.img} alt="Item" className="w-full h-full " />
               </div>
               <div className="pl-4 ">
-                <div className="font-semibold">${product.price}</div>
-                <div className="font-semibold">{product.ProductName}</div>
-                <div className="font-medium text-gray-400">
+                <div className="font-semibold lg:text-xl lg:font-medium">
+                  ${product.price}
+                </div>
+                <div className="font-semibold lg:text-xl lg:font-medium">
+                  {product.ProductName}
+                </div>
+                <div className="font-medium text-gray-400 lg:text-xl lg:font-normal">
                   Quantity: {product.clicked}
                 </div>
                 <div
-                  className="pt-2 text-2xl"
+                  className="pt-2 text-2xl lg:text-3xl"
                   onClick={() => RemoveProductFromCart(product.id)}
                 >
                   <FaRegTrashAlt />

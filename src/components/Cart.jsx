@@ -30,26 +30,26 @@ const Cart = ({ CounterBasket, SetCounterBasket }) => {
           <CartItems DeleteCardCounter={DeleteCardCounter} />
         </div>
 
-        <div className="border-t border-LightBlack lg:w-1/2  lg:border-none">
+        <div className="border-t border-LightBlack lg:w-1/2  lg:border-none lg:text-xl ">
           <div>
-            <div className="text-2xl font-medium py-5 tracking-wide lg:py-4">
+            <div className="text-2xl font-medium py-5 tracking-wide lg:py-4 lg:text-3xl">
               Summary
             </div>
           </div>
-          <div className="flex  justify-between font-medium tracking-wide ">
+          <div className="flex  justify-between font-medium tracking-wide  lg:font-normal">
             <div>Subtotal</div>
             <div>${SubtotalCartPrice}</div>
           </div>
-          <div className="flex  justify-between pt-2 font-medium tracking-wide">
+          <div className="flex  justify-between pt-2 font-medium tracking-wide lg:font-normal">
             <div>Estimated Shipping</div>
             <div>$10</div>
           </div>
-          <div className="flex  justify-between pt-4 font-semibold tracking-wide pb-4">
+          <div className="flex  justify-between pt-4 font-semibold tracking-wide pb-4 ">
             <div>Total</div>
             <div>${TotalPrice}</div>
           </div>
-          <div className="hidden lg:h-24 lg:w-full   lg:bottom-0 lg:border-t lg:border-LightBlack lg:flex lg:items-center lg:justify-center lg:bg-main lg:relative">
-            <div className="bg-LightBlack text-white text-xl font-medium w-11/12 h-4/6  flex items-center justify-center rounded-full tracking-wide">
+          <div className="hidden lg:h-24 lg:w-full   lg:bottom-0 lg:border-t lg:border-LightBlack lg:flex lg:items-center lg:justify-center lg:bg-main lg:relative ">
+            <div className="bg-LightBlack text-white text-xl font-medium w-1/2 h-4/6  flex items-center justify-center rounded-full tracking-wide lg:text-2xl cursor-pointer">
               Go To Checkout
             </div>
           </div>
