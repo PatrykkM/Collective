@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/React-EcommerceShop/static/css/main.eb727fc3.css",
-    "main.js": "/React-EcommerceShop/static/js/main.974fefb7.js",
+    "main.css": "/React-EcommerceShop/static/css/main.5997bdae.css",
+    "main.js": "/React-EcommerceShop/static/js/main.79980767.js",
     "static/media/SportFasionSubpage1.jpg": "/React-EcommerceShop/static/media/SportFasionSubpage1.04eb2f8068b792abd956.jpg",
     "static/media/SummerFashionSubpage3.jpg": "/React-EcommerceShop/static/media/SummerFashionSubpage3.7ab084adb00ad7bc73d9.jpg",
     "static/media/ClassicElegantFasionSubpage2.jpg": "/React-EcommerceShop/static/media/ClassicElegantFasionSubpage2.ab92ac4b358c1ff9acfd.jpg",
@@ -52,11 +52,11 @@
     "static/media/RetroFasionSubpage1.jpg": "/React-EcommerceShop/static/media/RetroFasionSubpage1.386555d37dbfc989a3c0.jpg",
     "static/media/FashionArtOfBeat.jpg": "/React-EcommerceShop/static/media/FashionArtOfBeat.fdc14b5a53e6c75bcc93.jpg",
     "index.html": "/React-EcommerceShop/index.html",
-    "main.eb727fc3.css.map": "/React-EcommerceShop/static/css/main.eb727fc3.css.map",
-    "main.974fefb7.js.map": "/React-EcommerceShop/static/js/main.974fefb7.js.map"
+    "main.5997bdae.css.map": "/React-EcommerceShop/static/css/main.5997bdae.css.map",
+    "main.79980767.js.map": "/React-EcommerceShop/static/js/main.79980767.js.map"
   },
   "entrypoints": [
-    "static/css/main.eb727fc3.css",
-    "static/js/main.974fefb7.js"
+    "static/css/main.5997bdae.css",
+    "static/js/main.79980767.js"
   ]
 }
