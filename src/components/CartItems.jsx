@@ -31,7 +31,7 @@ const CartItems = ({ DeleteCardCounter }) => {
         cart.map((product) =>
           product.clicked > 0 ? (
             <div className="flex py-5 " key={product.id}>
-              <div className="w-26 h-36 lg:w-28 lg:h-40">
+              <div className="w-26 h-36 lg:w-38 lg:h-56">
                 <img src={product.img} alt="Item" className="w-full h-full " />
               </div>
               <div className="pl-4 ">
