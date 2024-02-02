@@ -59,7 +59,7 @@ const ArtOfBeatSubpageProductsRow1 = ({
               </div>
             </div>
             <div
-              className=" flex pt-3 justify-between font-medium border-b pb-1 text-sm border-LightBlack
+              className=" flex pt-3 justify-between font-medium border-b pb-1 text-sm  border-LightBlack
           sm:text-base
           md:text-2xl md:border-b
           lg:w-full lg:font-normal lg:pt-5 lg:pb-5 lg:text-lg 
