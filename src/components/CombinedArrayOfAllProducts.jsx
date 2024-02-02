@@ -3,4 +3,4 @@ import { PRODUCTS } from "./FashionCategory/FashionCategorySubpages/Product/Arra
 
 const Array = [{}];
 const combinedArray1 = Array.concat(PRODUCTS, PRODUCTS);
-console.log(combinedArray1);
+
