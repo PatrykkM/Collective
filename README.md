@@ -4,9 +4,9 @@ Welcome to Collective, an innovative e-commerce platform designed to redefine on
 
 # Highlights
 
-💡 Intuitive Interface: My platform boasts a user-friendly experimental interface that makes navigation a breeze. Whether you're a first-time visitor or a regular shopper, you'll find everything you need with ease
+💡 Intuitive Interface: My platform boasts a user-friendly experimental interface that makes navigation a breeze. Whether you're a first-time visitor or a regular shopper, you'll find everything you need with ease.
 
-🚀 Optimized for All Devices: The application has been carefully tailored to provide a smooth and responsive experience on devices of all types. 
+🚀 Optimized for All Devices: The application has been carefully tailored to provide a smooth and responsive experience on devices of all types.
 
 # Technologies
 
