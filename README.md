@@ -1,6 +1,6 @@
-# Hello
+# Hello 👋
 
-Welcome to Collective, an innovative e-commerce platform designed to redefine online shopping.
+Welcome to Collective, an innovative e-commerce platform designed to redefine online shopping with its groundbreaking design and user experience
 
 # Highlights
 
